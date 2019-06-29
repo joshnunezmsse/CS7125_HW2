@@ -67,7 +67,7 @@ public class App {
 
         // setup network
         System.out.println("PWD: " + System.getProperty("user.dir"));
-        NetworkTopology.buildNetworkTopology("topology.brite");
+        NetworkTopology.buildNetworkTopology("HW2/topology.brite");
 
         // datacenter network mappings
         NetworkTopology.mapNode(dc0.getId(), 0);
